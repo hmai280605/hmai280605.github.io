@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 20px;
+    
+    padding: 20px;
+}
+
+.hobby-paragraph {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+    
+    line-height: 1.6;
+    border-radius: 5px;
+    
+    box-shadow: 5px 5px 100px #333;
+}
+
+h1 {
+    text-shadow: 2px 2px 5px #333;
+}

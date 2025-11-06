@@ -76,5 +76,41 @@
         <source src="../week5/videomyintro.mp4/Download.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
+    <br><br>   
+    
+      <form>
+    <label for="your_name">Input your name:</label>
+    <input type="text" id="your_name" name="your_name"><br>
+
+    <label for="your_email">Input your email:</label>
+    <input type="email" id="your_email" name="your_email"><br>
+
+    <label>Checkbox:</label><br>
+    <input type="checkbox" id="course1" name="courses_attended" value="course1">
+    <label for="course1">Course 1</label><br>
+    <input type="checkbox" id="course2" name="courses_attended" value="course2">
+    <label for="course2">Course 2</label><br>
+
+    <label>Your preferred contact:</label>
+    <input type="radio" name="preferred_contact" id="contact_email" value="email">
+    <label for="contact_email">Email</label>
+    <input type="radio" name="preferred_contact" id="contact_phone" value="phone">
+    <label for="contact_phone">Phone</label><br>
+
+    <label for="gender">Gender</label>
+    <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select><br>
+
+    <input type="file" name="file" id="file"><br>
+    <textarea name="large_text" id="large_text" rows="5"></textarea><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+
 </body>
 </html>
+
